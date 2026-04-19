@@ -1,0 +1,49 @@
+{
+  "name": "The Lost Sheep",
+  "short_name": "LostSheep",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#4a7c59",
+  "scope": ".",
+  "orientation": "portrait",
+  "description": "A logic-based search game. Join the shepherd to find the lost sheep using intuition and hope.",
+  "categories": [
+    "game",
+    "education",
+    "logic",
+    "devotional",
+    "number guess",
+    "vanilla js",
+    "user-friendly"
+  ],
+  "icons": [
+    {
+      "src": "./assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/screenshot-mobile.png",
+      "sizes": "320x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "The Shepherd searching for the lost sheep"
+    },
+    {
+      "src": "./assets/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Gameplay interface with Hope meter"
+    }
+  ]
+}
